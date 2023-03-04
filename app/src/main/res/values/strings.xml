@@ -3,4 +3,6 @@
     <string name="cv_logo">Logo do Mercado Livre</string>
     <string name="cv_promocao">Banner da promocao</string>
     <string name="tv_oferta">Oferta do dia</string>
+    <string name="tv_produto_text">Fritadeira Elétrica Multilaser Air Fryer</string>
+    <string name="iv_produto_text">Imagem do produto</string>
 </resources>
