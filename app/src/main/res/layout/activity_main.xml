@@ -41,8 +41,8 @@
 
     <ImageView
         android:id="@+id/iv_produto"
-        android:layout_width="119dp"
-        android:layout_height="156dp"
+        android:layout_width="129dp"
+        android:layout_height="174dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/iv_produto_text"
@@ -52,10 +52,30 @@
 
     <TextView
         android:id="@+id/tv_produto"
-        android:layout_width="182dp"
-        android:layout_height="wrap_content"
+        android:layout_width="198dp"
+        android:layout_height="42dp"
         android:layout_marginStart="16dp"
         android:text="@string/tv_produto_text"
         app:layout_constraintStart_toEndOf="@+id/iv_produto"
         app:layout_constraintTop_toTopOf="@+id/iv_produto" />
+
+    <TextView
+        android:id="@+id/tv_desc_produto"
+        android:layout_width="197dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_desc_produto_text"
+        app:layout_constraintStart_toEndOf="@+id/iv_produto"
+        app:layout_constraintTop_toBottomOf="@+id/tv_produto" />
+
+    <Button
+        android:id="@+id/btn_comprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_comprar"
+        app:layout_constraintStart_toEndOf="@+id/iv_produto"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_produto" />
 </androidx.constraintlayout.widget.ConstraintLayout>
